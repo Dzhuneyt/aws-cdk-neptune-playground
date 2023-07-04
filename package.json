@@ -13,15 +13,20 @@
   "devDependencies": {
     "@types/jest": "^29.5.1",
     "@types/node": "20.1.7",
+    "@types/uuid": "^9.0.2",
+    "aws-cdk": "2.83.1",
+    "esbuild": "^0.18.11",
     "jest": "^29.5.0",
     "ts-jest": "^29.1.0",
-    "aws-cdk": "2.83.1",
     "ts-node": "^10.9.1",
     "typescript": "~5.0.4"
   },
   "dependencies": {
+    "@aws-cdk/aws-neptune-alpha": "^2.85.0-alpha.0",
     "aws-cdk-lib": "2.83.1",
     "constructs": "^10.0.0",
-    "source-map-support": "^0.5.21"
+    "neptune-gremlin": "^0.0.6",
+    "source-map-support": "^0.5.21",
+    "uuid": "^9.0.0"
   }
 }
